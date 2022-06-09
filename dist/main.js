@@ -100,7 +100,7 @@ class ThermostatCard extends HTMLElement {
     if (!cardConfig.diameter) cardConfig.diameter = 400;
     if (!cardConfig.pending) cardConfig.pending = 3;
     if (!cardConfig.idle_zone) cardConfig.idle_zone = 2;
-    if (!cardConfig.step) cardConfig.step = 0.5;
+    if (!cardConfig.step) cardConfig.step = 1.0;
     if (!cardConfig.highlight_tap) cardConfig.highlight_tap = false;
     if (!cardConfig.no_card) cardConfig.no_card = false;
     if (!cardConfig.chevron_size) cardConfig.chevron_size = 50;
